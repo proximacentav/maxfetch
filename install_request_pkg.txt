@@ -1,0 +1,2 @@
+arch: sudo pacman -S pciutils usbutils alsa-utils ethtool wireless_tools networkmanager net-tools dmidecode lm_sensors xorg-xrandr base-devel
+debian: sudo apt install pciutils usbutils alsa-utils ethtool wireless-tools network-manager net-tools dmidecode lm-sensors x11-xserver-utils build-essential
