@@ -8,7 +8,7 @@
 [![Fedora](https://img.shields.io/badge/Fedora-294172.svg)](https://getfedora.org/)
 
 **maxfetch** is a powerful, fast, and colorful system information tool for Linux.  
-It displays everything you need to know about your PC – CPU, GPU, memory, disks, network, USB/PCI devices, temperatures, battery, and much more – in an adaptive multi‑column layout (1 to 6 columns depending on terminal width).  
+It displays everything you need to know about your PC – CPU, GPU, memory, disks, network, USB/PCI devices, temperatures, battery, and much more – in an adaptive multi‑column layout.  
 No logo, no bloat – just **maximum information** at a glance.
 
 **Repository:** [github.com/proximacentav/maxfetch](https://github.com/proximacentav/maxfetch)
