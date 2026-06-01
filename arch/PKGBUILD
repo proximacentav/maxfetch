@@ -18,4 +18,10 @@ build() {
 package() {
     install -Dm755 maxfetch "$pkgdir/usr/bin/maxfetch"
 }
+optdepends=('pciutils: GPU and PCI devices'
+            'usbutils: USB devices'
+            'ethtool: network speed'
+            'wireless_tools: Wi-Fi SSID'
+            'lm_sensors: temperatures'
+            'dmidecode: motherboard and BIOS')
 #sha256sums=('C1a20420ad98b8257fe74bef9a55bcfea792fe5a1f1006b9b0f9a80a73f8a9af7')
