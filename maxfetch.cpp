@@ -202,7 +202,7 @@ vector<pair<string, int>> get_hardware_info() {
         char buf[64];
         snprintf(buf, sizeof(buf), "Memory: %.1f GiB / %.1f GiB (%.1f%%)", used_gb, total_gb, (used_gb/total_gb)*100);
         items.emplace_back(buf, COLOR_GREEN);
-    }
+    } // maxfetch.cpp 
     if (swap_total > 0) {
         double swap_used_gb = (swap_total - swap_free) / 1024.0 / 1024.0;
         double swap_total_gb = swap_total / 1024.0 / 1024.0;
